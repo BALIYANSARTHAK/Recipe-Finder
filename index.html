@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+
+        <!-- Search Bar -->
+        <input type="text" id="search-box" placeholder="Search for a recipe...">
+        <button onclick="searchRecipe()">Search</button>
+
+        <!-- Fast Food Quick Search Buttons -->
+        <div id="quick-search">
+            <button onclick="quickSearch('Burger')">Burger</button>
+            <button onclick="quickSearch('Pizza')">Pizza</button>
+            <button onclick="quickSearch('Tacos')">Tacos</button>
+            <button onclick="quickSearch('Hot Dog')">Hot Dog</button>
+            <button onclick="quickSearch('Fried Chicken')">Fried Chicken</button>
+            <button onclick="quickSearch('Pasta')">Pasta</button>
+            <button onclick="quickSearch('Sushi')">Sushi</button>
+            <button onclick="quickSearch('Sandwich')">Sandwich</button>
+            <button onclick="quickSearch('French Fries')">French Fries</button>
+            <button onclick="quickSearch('Salad')">Salad</button>
+        </div>
+
+        <!-- Recipe Result -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
